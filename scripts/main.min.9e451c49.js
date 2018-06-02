@@ -1,0 +1,3 @@
+/*! projects--portfolio | Patrick Dorosz | ISC */
+
+!function(){"use strict";window.onload=function(){var t=document.getElementsByClassName("featured-project"),a=0;[].concat(function(t){if(Array.isArray(t)){for(var e=0,a=Array(t.length);e<t.length;e++)a[e]=t[e];return a}return Array.from(t)}(t)).forEach(function(t,e){t.classList.contains("featured-project--placeholder")||(setTimeout(function(){t.classList.add("featured-project--visible")},120*a),a+=1)})};var t=document.querySelector(".entypo-mail");t.onclick=function(){t.href="mailto:"+t.dataset.lhs_a+"."+t.dataset.lhs_b+"@"+t.dataset.dom+"."+t.dataset.tld}}();
